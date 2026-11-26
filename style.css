@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 90px;
+  background-image: url("images\ \(2\).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+label,
+input,
+select,
+button {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input,
+select,
+button {
+   padding: 6px;
+   color: black;
+}
